@@ -56,7 +56,7 @@ Installing openni_tracker (ROS package)
 ```
 cd ~/your_catkin_ws/src/
 git clone https://github.com/ros-drivers/openni_tracker.git
-catkin build openni_tracker
+catkin_make openni_tracker
 ```
 
 Though the openni_tracker package was intended for Hydro, it seems to work fine on Kinetic.
@@ -65,7 +65,7 @@ Finally, download and build this package:
 
 ```
 git clone https://github.com/daniel-s-ingram/uarm_kinect.git
-catkin build kinect_pyuarm
+catkin_make kinect_pyuarm
 source ~/your_catkin_ws/devel/setup.bash
 roslaunch kinect_pyuarm kinect_uarm.launch
 ```
