@@ -5,6 +5,9 @@ In order to use the Kinect with this package, there are three libraries you will
 First, there are a few dependencies to install:
 
 ```
+sudo add-apt-repository ppa:openjdk-r/ppa  
+sudo apt-get update   
+sudo apt-get install openjdk-7-jdk 
 sudo apt-get install git build-essential python libusb-1.0-0-dev freeglut3-dev openjdk-7-jdk
 sudo apt-get install doxygen graphviz mono-complete
 pip install pyuarm
